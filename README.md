@@ -1,5 +1,10 @@
 # pytorch-tour
-A deep learning tour with pytorch.
+
+A deep learning tour with pytorch
+=================================
+
+Paszke PyData
+=============
 
 * https://www.youtube.com/watch?v=BZyKufPCKdI
 
@@ -64,4 +69,49 @@ print(q)
 ```
 
 NumPy bridge, 0.5ms per call. Reallocating a few bytes. Data is not copied.
+
+----
+
+* Generic numpy optimization talk (Pablo): https://www.youtube.com/watch?v=XUNU63tZNQI
+
+Another talk: https://www.youtube.com/watch?v=rrekAv9Fml4 -- Paul O'Grady -
+
+An introduction to PyTorch & Autograd
+=====================================
+
+* millions of model parameters
+* tensor (ndarray) operations of gpu
+* theano, tensorflow, caffe
+* gradients and automatic diff
+
+Gradient for SGD. Pen and paper. Update rule.
+
+* Python at the center
+* Pytorch January 2017, 0.1.6
+
+----
+
+* Port from Lua
+* Share a common C library
+* PyTorch: define-by-run, as opposed to define-and-run - a bit more pythonic, also dynamic computational graphs
+
+----
+
+* main components:
+* torch.nn
+* torch.autograd
+* torch.optim
+
+----
+
+Examples: 3.5.3, 0.1.12
+
+----
+
+Deep learning landscape: 
+
+* tensorflow, keras, mxnet, caffe2, pytorch, caffe, paddle, CNTK,
+  deeplearning4j, tflearn, dlib, Theano, chainer, DIGITS, dynet ... (fchollet)
+
+----
 
