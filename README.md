@@ -76,6 +76,7 @@ NumPy bridge, 0.5ms per call. Reallocating a few bytes. Data is not copied.
 
 Another talk: https://www.youtube.com/watch?v=rrekAv9Fml4 -- Paul O'Grady -
 
+
 An introduction to PyTorch & Autograd
 =====================================
 
