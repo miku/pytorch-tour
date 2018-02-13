@@ -1,6 +1,6 @@
-# Deep Learning with PyTorch
+# A brief introduction to PyTorch
 
-## A short tour @lpyug 2017-02-13 19:00.
+## @lpyug 2017-02-13 19:00.
 
 ### Martin Czygan | github.com/miku/pytorch-tour (soon)
 
@@ -213,3 +213,4 @@ As an [example](https://github.com/HIPS/autograd/blob/master/docs/tutorial.md#ho
 
 ----
 
+Thanks.
