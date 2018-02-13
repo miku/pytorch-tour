@@ -1,4 +1,4 @@
-# Deep Learning with pytorch
+# Deep Learning with PyTorch
 
 ## A short tour @lpyug 2017-02-14 19:00.
 
@@ -14,12 +14,20 @@
 
 ----
 
+## AI, ML, DL, ...
+
+![](images/Deep_Learning_Icons_R5_PNG.jpg.png)
+
+----
+
 ## What is Deep Learning?
 
-* maybe anything with more than one hidden layer
+* some definition: anything with more than two hidden layers
 * computationally expensive, high capacity learning machines
 
 ----
+
+<!--
 
 ## Overhyped?
 
@@ -29,6 +37,9 @@
 
 ----
 
+-->
+
+
 ## In the news and elsewhere
 
 * AlphaGo (March 2016, Deep Learning and the Game of Go)
@@ -36,10 +47,10 @@
 * Real-Time object detection (2013, darknet)
 * Image Captioning
 * Neural Style Transfer
-* WaveNet
+* WaveNet (speech generation)
 * Speech recognition (2017, [DeepSpeech](https://github.com/mozilla/DeepSpeech))
 * Translation (2016, OpenNMT)
-* Word Embeddings (2013, word2vec)
+* Word Embeddings (2013, word2vec; 2016, fasttext)
 
 ----
 
@@ -53,7 +64,7 @@
 
 ----
 
-## A tiny bit of money
+## History: "A tiny bit of money"
 
 In Nov 2007, Geoffrey Hinton gave a tech talk at Google, called *The Next Generation of Neural Networks*. He seems like a [slightly desperate](https://www.youtube.com/watch?v=AyzOUbkUf3M&feature=youtu.be&t=51m3s).
 
@@ -70,6 +81,31 @@ Ten years later Hinton [introduces](https://www.utoronto.ca/news/introducing-vec
 
 ----
 
+## Deep Learning Frameworks
+
+* Abstract away the neural network construction and learning algorithms
+* Lots of Python wrappers or pure Python APIs
+* [tensorflow](https://www.tensorflow.org/), [keras](https://keras.io/), [mxnet](https://mxnet.incubator.apache.org/api/python/index.html), [pytorch](http://pytorch.org/), [paddle](https://github.com/PaddlePaddle/Paddle), [CNTK](https://www.cntk.ai/pythondocs/),
+  [dlib](https://github.com/davisking/dlib), [Theano](http://deeplearning.net/software/theano/), [chainer](https://github.com/chainer/chainer), [dynet](https://github.com/clab/dynet), ...
+* Other languages: caffe, caffe2, DL4J, DIGITS
+
+----
+
+## Deep Learning Frameworks
+
+* 
+
+----
+
 ## Parts and Ingredients
 
-Build a **computational graph**, utilize **automatic differentiation**, to adjust the **parameters** of your model according to a given **loss function**, that captures the **distance** between the computer and the expected output, when given enough **training data**.
+Build a **computational graph**, utilize **automatic differentiation**, to adjust the **parameters** of your model according to a given **loss function**, that captures the **distance** between the computed and the expected output, given enough **training data**.
+
+----
+
+## PyTorch
+
+It’s a Python based scientific computing package targeted at two sets of audiences:
+
+* A replacement for NumPy to use the power of GPUs
+* a deep learning research platform that provides maximum flexibility and speed
