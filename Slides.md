@@ -40,7 +40,7 @@
 -->
 
 
-## In the news and elsewhere
+## Advances
 
 * AlphaGo (March 2016, Deep Learning and the Game of Go)
 * ImageNet classification (2014, VGG16, VGG19)
@@ -93,8 +93,9 @@ Ten years later Hinton [introduces](https://www.utoronto.ca/news/introducing-vec
 
 ## Deep Learning Frameworks
 
-* computation graph
-* automatic differentiation
+* gpu*
+* computational graph*
+* automatic differentiation*
 * optimization algorithms
 * utilities: data loading, dashboard, ...
 
@@ -111,7 +112,7 @@ Build a **computational graph**, utilize **automatic differentiation**, to adjus
 * basics
 * differentiation
 * NN
-* example
+* examples
 
 ----
 
