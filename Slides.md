@@ -1,8 +1,8 @@
 # Deep Learning with PyTorch
 
-## A short tour @lpyug 2017-02-14 19:00.
+## A short tour @lpyug 2017-02-13 19:00.
 
-### Martin Czygan | github.com/miku/pytorch-tour
+### Martin Czygan | github.com/miku/pytorch-tour (soon)
 
 <!-- TODO: rename to dltour -->
 
@@ -200,5 +200,15 @@ As an [example](https://github.com/HIPS/autograd/blob/master/docs/tutorial.md#ho
 
 ----
 
-## Simple NN
+## Simple MLP
+
+* Notebook #3
+
+----
+
+## CIFAR10 Example
+
+* Notebook #4
+
+----
 
