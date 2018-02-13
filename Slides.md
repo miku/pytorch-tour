@@ -93,7 +93,10 @@ Ten years later Hinton [introduces](https://www.utoronto.ca/news/introducing-vec
 
 ## Deep Learning Frameworks
 
-* 
+* computation graph
+* automatic differentiation
+* optimization algorithms
+* utilities: data loading, dashboard, ...
 
 ----
 
@@ -103,9 +106,99 @@ Build a **computational graph**, utilize **automatic differentiation**, to adjus
 
 ----
 
-## PyTorch
+## Overview
+
+* basics
+* differentiation
+* NN
+* example
+
+----
+
+## PyTorch Basics
 
 It’s a Python based scientific computing package targeted at two sets of audiences:
 
 * A replacement for NumPy to use the power of GPUs
 * a deep learning research platform that provides maximum flexibility and speed
+
+----
+
+## Basic data structures
+
+* Tensors: like np.ndarray but, GPU-enabled
+* Notebook #1
+
+----
+
+## Automatic Differentiation
+
+> Automatic differentiation (AD) is software to transform code
+for one function into code for the derivative of the function.
+
+----
+
+## Gradients
+
+> Imagine you want to test out a new machine learning model for your data. This usually means coming up with some **loss function to capture how well your model fits the data** and **optimizing that loss with respect to the model parameters**.
+
+> If there are many model parameters (neural nets can have millions) then you need **gradients**. You then have two options:
+> 
+> * derive and code them up yourself, or
+> * implement your model using the syntactic and semantic constraints of a system like Theano or TensorFlow.
+
+----
+
+## Automatic Differentiation
+
+Three ways to find the derivative:
+
+* numerical approximation
+* symbolic calculation
+* AD
+
+----
+
+## Numeric
+
+[![](images/numeric.png)](http://mathfaculty.fullerton.edu/mathews/n2003/differentiation/NumericalDiffProof.pdf)
+
+----
+
+## Symbolic
+
+[![](images/symbolic.png)](http://www.cs.brandeis.edu/~mairson/Courses/cs21b/Lectures/sym-diff.pdf)
+
+----
+
+## Automatic
+
+* also called algorithmic differentiation
+* there are standalone libraries for this, e.g. autograd
+
+As an [example](https://github.com/HIPS/autograd/blob/master/docs/tutorial.md#how-to-use-autograd): Notebook #2
+
+----
+
+## Automatic
+
+> To compute the gradient, Autograd first has to record every transformation that was applied to the input as it was turned into the output of your function. To do this, Autograd wraps functions (using the function primitive) so that when they're called, they add themselves to a list of operations performed. Autograd's core has a table mapping these wrapped primitives to their corresponding gradient functions.
+
+----
+
+## Automatic
+
+![](images/autograd.png)
+
+----
+
+## Autograd in PyTorch
+
+> The autograd package provides automatic differentiation for all operations on Tensors.
+
+* Notebook #2
+
+----
+
+## Simple NN
+
