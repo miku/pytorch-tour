@@ -44,7 +44,7 @@
 
 * AlphaGo (March 2016, Deep Learning and the Game of Go)
 * ImageNet classification (2014, VGG16, VGG19)
-* Real-Time object detection (2013, darknet)
+* Real-Time object detection (2013, darknet; 2016, YOLO)
 * Image Captioning
 * Neural Style Transfer
 * WaveNet (speech generation)
@@ -61,6 +61,12 @@
 * Lip reading
 * Text generation
 * Time series forecast
+
+----
+
+## A model zoo
+
+* http://www.asimovinstitute.org/wp-content/uploads/2016/09/neuralnetworks.png
 
 ----
 
@@ -213,4 +219,4 @@ As an [example](https://github.com/HIPS/autograd/blob/master/docs/tutorial.md#ho
 
 ----
 
-Thanks.
+
