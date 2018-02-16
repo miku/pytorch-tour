@@ -7,7 +7,7 @@ At [Leipzig Python User Group](https://twitter.com/lpyug),
 
 We looked briefly at the history of deep learning and one modern deep learning framework: PyTorch.q
 
-* [Slides](https://github.com/miku/pytorch-tour/blob/master/Slides.pdf)
+* [Slides](https://github.com/miku/pytorch-tour/blob/master/Slides.pdf) - [source](https://github.com/miku/pytorch-tour/blob/master/Slides.md)
 
 Notebooks we worked through:
 
