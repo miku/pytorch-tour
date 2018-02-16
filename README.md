@@ -2,7 +2,7 @@ A brief introduction to PyTorch
 ===============================
 
 At [Leipzig Python User Group](https://twitter.com/lpyug),
-[Meetup](https://www.meetup.com/de-DE/Leipzig-Python-User-Group/), 2017-02-13
+[Meetup](https://www.meetup.com/de-DE/Leipzig-Python-User-Group/), 2018-02-13
 19:00 at [Basislager](https://www.basislager.co/).
 
 We looked briefly at the history of deep learning and one modern deep learning framework: PyTorch.q
