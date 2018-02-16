@@ -1,6 +1,6 @@
 # A brief introduction to PyTorch
 
-## @lpyug 2017-02-13 19:00.
+## @lpyug 2018-02-13 19:00.
 
 ### [Martin Czygan](mailto:martin.czygan@gmail.com) | [pytorch-tour](https://github.com/miku/pytorch-tour)
 
