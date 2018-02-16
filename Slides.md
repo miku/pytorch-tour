@@ -134,7 +134,7 @@ It’s a Python based scientific computing package targeted at two sets of audie
 ## Basic data structures
 
 * Tensors: like np.ndarray but, GPU-enabled
-* Notebook #1
+* [Notebook #2](https://github.com/miku/pytorch-tour/blob/master/1%20Basic%20PyTorch.ipynb)
 
 ----
 
