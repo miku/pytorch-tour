@@ -2,7 +2,7 @@
 
 ## @lpyug 2017-02-13 19:00.
 
-### [Martin Czygan](mailto:martin.czygan@gmail.com) | github.com/miku/pytorch-tour (soon)
+### [Martin Czygan](mailto:martin.czygan@gmail.com) | github.com/miku/pytorch-tour (soon)
 
 <!-- TODO: rename to dltour -->
 
@@ -48,7 +48,7 @@
 * Image Captioning
 * Neural Style Transfer
 * WaveNet (speech generation)
-* Speech recognition (2017, [DeepSpeech](https://github.com/mozilla/DeepSpeech))
+* Speech recognition (2017, [DeepSpeech](https://github.com/mozilla/DeepSpeech))
 * Translation (2016, OpenNMT)
 * Word Embeddings (2013, word2vec; 2016, fasttext)
 
@@ -130,7 +130,7 @@ Build a **computational graph**, utilize **automatic differentiation**, to adjus
 
 ## PyTorch Basics
 
-It’s a Python based scientific computing package targeted at two sets of audiences:
+It's a Python based scientific computing package targeted at two sets of audiences:
 
 * A replacement for NumPy to use the power of GPUs
 * a deep learning research platform that provides maximum flexibility and speed
@@ -189,7 +189,7 @@ Three ways to find the derivative:
 * also called algorithmic differentiation
 * there are standalone libraries for this, e.g. autograd
 
-As an [example](https://github.com/HIPS/autograd/blob/master/docs/tutorial.md#how-to-use-autograd): Notebook #2
+Example with [autograd](https://github.com/HIPS/autograd/blob/master/docs/tutorial.md#how-to-use-autograd): [Notebook #3](https://github.com/miku/pytorch-tour/blob/master/3%20Autograd.ipynb)
 
 ----
 
