@@ -2,7 +2,7 @@
 
 ## @lpyug 2017-02-13 19:00.
 
-### Martin Czygan | github.com/miku/pytorch-tour (soon)
+### [Martin Czygan](mailto:martin.czygan@gmail.com) | github.com/miku/pytorch-tour (soon)
 
 <!-- TODO: rename to dltour -->
 
