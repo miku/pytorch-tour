@@ -16,7 +16,9 @@
 
 ## AI, ML, DL, ...
 
-![](images/Deep_Learning_Icons_R5_PNG.jpg.png)
+[![](images/Deep_Learning_Icons_R5_PNG.jpg.png)](https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/)
+
+From: https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/
 
 ----
 
