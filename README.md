@@ -6,7 +6,7 @@ At [Leipzig Python User Group](https://twitter.com/lpyug),
 [Homepage](https://lpug.github.io/), 2018-02-13 19:00 at
 [Basislager](https://www.basislager.co/).
 
-We looked briefly at the history of deep learning and one modern deep learning framework: PyTorch.q
+We looked briefly at the history of deep learning and one modern deep learning framework: PyTorch.
 
 * [Slides](https://github.com/miku/pytorch-tour/blob/master/Slides.pdf) - [source](https://github.com/miku/pytorch-tour/blob/master/Slides.md)
 
