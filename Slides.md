@@ -122,6 +122,12 @@ Build a **computational graph**, utilize **automatic differentiation**, to adjus
 
 ----
 
+## NumPy performance
+
+* [Notebook #1](https://github.com/miku/pytorch-tour/blob/master/1%20Benchmarks%20(python%20vs%20numpy).ipynb)
+
+----
+
 ## PyTorch Basics
 
 It’s a Python based scientific computing package targeted at two sets of audiences:
@@ -134,7 +140,7 @@ It’s a Python based scientific computing package targeted at two sets of audie
 ## Basic data structures
 
 * Tensors: like np.ndarray but, GPU-enabled
-* [Notebook #2](https://github.com/miku/pytorch-tour/blob/master/1%20Basic%20PyTorch.ipynb)
+* [Notebook #2](https://github.com/miku/pytorch-tour/blob/master/2%20Basic%20PyTorch.ipynb)
 
 ----
 
@@ -203,20 +209,20 @@ As an [example](https://github.com/HIPS/autograd/blob/master/docs/tutorial.md#ho
 
 > The autograd package provides automatic differentiation for all operations on Tensors.
 
-* Notebook #2
+* [Notebook #3](https://github.com/miku/pytorch-tour/blob/master/3%20Autograd.ipynb)
 
 ----
 
 ## Simple MLP
 
-* Notebook #3
+* [Notebook #4](https://github.com/miku/pytorch-tour/blob/master/4%20Basic%20MLP.ipynb)
 
 ----
 
 ## CIFAR10 Example
 
-* Notebook #4
+* [Notebook #5](https://github.com/miku/pytorch-tour/blob/master/5%20CIFAR10.ipynb)
 
 ----
 
-
+...
